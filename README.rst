@@ -27,6 +27,6 @@ in YAML format and be written in following organization.
   - id: Numerical ID of unit or port
   - name: Name of connected, port name (hostname + port ID charactor) of connected target
   - hostname: Hostname of connected target
-  - port: Port ID in the hostname
+  - port: (optional) Port ID in the hostname
   - description: (optional) Human readable description of connected target
 
