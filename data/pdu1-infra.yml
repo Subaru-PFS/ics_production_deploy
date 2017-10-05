@@ -1,0 +1,43 @@
+- device:
+  name: "pdu1-infra"
+  place: "CB2F"
+  units: 20
+  class: "pdu"
+  description: "PFS ICS PDU at CB2F"
+- assign:
+  - id: 1
+    name: "swc1-infra"
+    hostname: "swc1-infra"
+  - id: 2
+    name: "swc2-infra"
+    hostname: "swc2-infra"
+  - id: 3
+    name: "kvm1-infra"
+    hostname: "kvm1-infra"
+  - id: 14
+    name: "rca1-vm"
+    hostname: "rca1-vm"
+  - id: 15
+    name: "rfa1a-vm"
+    hostname: "rfa1-vm"
+    port: 1
+  - id: 16
+    name: "rga1a-vm"
+    hostname: "rga1-vm"
+    port: 1
+  - id: 17
+    name: "iss0-1-infra"
+    hostname: "iss-infra"
+    port: "a1"
+  - id: 18
+    name: "iss1-1-infra"
+    hostname: "iss-infra"
+    port: "b1"
+  - id: 19
+    name: "iss0-2-infra"
+    hostname: "iss-infra"
+    port: "a2"
+  - id: 20
+    name: "iss1-2-infra"
+    hostname: "iss-infra"
+    port: "b2"

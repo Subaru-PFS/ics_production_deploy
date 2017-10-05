@@ -1,0 +1,16 @@
+- device:
+  name: "kvm1-infra"
+  place: "CB2F"
+  units: 16
+  class: "kvm"
+  description: "PFS ICS KVM at CB2F"
+- assign:
+  - id: 1
+    name: "rca1-vm"
+    hostname: "rca1-vm"
+  - id: 2
+    name: "rfa1-vm"
+    hostname: "rfa1-vm"
+  - id: 3
+    name: "rga1-vm"
+    hostname: "rga1-vm"
