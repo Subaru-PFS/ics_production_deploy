@@ -1,0 +1,49 @@
+- device:
+  name: "scr-5th-rack"
+  place: "SCR"
+  units: 37
+  class: "rack"
+  description: "PFS SCR 5th rack"
+- assign:
+  - id: 37
+    name: "HEX"
+    hostname: "HEX"
+  - id: 36
+    name: "HEX"
+    hostname: "HEX"
+  - id: 35
+    name: "HEX"
+    hostname: "HEX"
+  - id: 34
+    name: "HEX"
+    hostname: "HEX"
+  - id: 33
+    name: "HEX"
+    hostname: "HEX"
+  - id: 32
+    name: "HEX"
+    hostname: "HEX"
+  - id: 31
+    name: "swr1-infra"
+    hostname: "swr1-infra"
+  - id: 27
+    name: "rac1-scr"
+    hostname: "rac1-scr"
+    description: "Temporary assignment"
+  - id: 26
+    name: "raa1-scr"
+    hostname: "raa1-scr"
+    description: "Temporary assignment"
+  - id: 4
+    name: "HEX"
+    hostname: "HEX"
+  - id: 3
+    name: "HEX"
+    hostname: "HEX"
+  - id: 2
+    name: "HEX"
+    hostname: "HEX"
+  - id: 1
+    name: "HEX"
+    hostname: "HEX"
+
