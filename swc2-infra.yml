@@ -1,0 +1,33 @@
+- device:
+  name: "swc2-infra"
+  place: "CB2F"
+  units: 28
+  class: "switch"
+  description: "Network switch 2 at CB2F, FlexStack slave"
+- assign:
+  - id: 1
+    name: "pdu1-infra"
+    hostname: "pdu1-infra"
+    port: "a"
+    description: "CB2F PDU 1"
+  - id: 2
+    name: "kvm1a-infra"
+    hostname: "kvm1-infra"
+    port: "a"
+    description: "CB2F KVM"
+  - id: 3
+    name: "issa1-infra"
+    hostname: "iss"
+    port: "a1"
+    description: "Management network port A of storage"
+  - id: 4
+    name: "issa2-infra"
+    hostname: "iss"
+    port: "a2"
+    description: "Management network port B of storage"
+  - id: 5
+    name: "rca1i-vm"
+    hostname: "rca1-vm"
+    port: "i"
+    description: "iDRAC of rca1-vm"
+

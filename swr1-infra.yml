@@ -1,0 +1,26 @@
+- device:
+  name: "swr1-infra"
+  place: "SCR"
+  units: 28
+  class: "switch"
+  description: "Network switch at SCR 5th rack"
+- assign:
+  - id: 1
+    name: "raa1a-vm"
+    hostname: "raa1-vm"
+    port: "i"
+  - id: 2
+    name: "rac1a-vm"
+    hostname: "rac1-vm"
+    port: "i"
+  - id: 20
+    name: "IR3"
+    hostname: "IR3"
+    port: "i"
+    description: "Temporary cable to IR3"
+  - id: 24
+    name: "uplink"
+    hostname: "uplink"
+    port: "1"
+    description: "Temporary uplink to NsIR"
+
