@@ -1,9 +1,9 @@
 - device:
-  name: "cb2f-rack"
-  place: "CB2F"
-  units: 42
-  class: "rack"
-  description: "PFS ICS rack at CB2F"
+    name: "cb2f-rack"
+    place: "CB2F"
+    units: 42
+    class: "rack"
+    description: "PFS ICS rack at CB2F"
 - assign:
   - id: 42
     name: "swc1-infra"
