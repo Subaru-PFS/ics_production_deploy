@@ -1,9 +1,9 @@
 - device:
-  name: "scr-5th-rack"
-  place: "SCR"
-  units: 37
-  class: "rack"
-  description: "PFS SCR 5th rack"
+    name: "scr-5th-rack"
+    place: "SCR"
+    units: 37
+    class: "rack"
+    description: "PFS SCR 5th rack"
 - assign:
   - id: 37
     name: "HEX"
