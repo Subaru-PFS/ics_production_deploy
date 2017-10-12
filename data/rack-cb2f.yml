@@ -1,0 +1,44 @@
+- device:
+    name: "cb2f-rack"
+    place: "CB2F"
+    units: 42
+    class: "rack"
+    description: "PFS ICS rack at CB2F"
+- assign:
+  - id: 42
+    name: "swc1-infra"
+    hostname: "swc1-infra"
+  - id: 41
+    name: "swc2-infra"
+    hostname: "swc2-infra"
+  - id: 39
+    name: "kvm1-infra"
+    hostname: "kvm1-infra"
+  - id: 13
+    name: "rca1-vm"
+    hostname: "rca1-vm"
+  - id: 8
+    name: "rfa1-vm"
+    hostname: "rfa1-vm"
+  - id: 7
+    name: "rfa1-vm"
+    hostname: "rfa1-vm"
+  - id: 6
+    name: "rga1-vm"
+    hostname: "rga1-vm"
+  - id: 5
+    name: "rga1-vm"
+    hostname: "rga1-vm"
+  - id: 4
+    name: "iss0-infra"
+    hostname: "iss-infra"
+  - id: 3
+    name: "iss0-infra"
+    hostname: "iss-infra"
+  - id: 2
+    name: "iss1-infra"
+    hostname: "iss-infra"
+  - id: 1
+    name: "iss1-infra"
+    hostname: "iss-infra"
+
