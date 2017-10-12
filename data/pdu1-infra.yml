@@ -1,9 +1,9 @@
 - device:
-  name: "pdu1-infra"
-  place: "CB2F"
-  units: 20
-  class: "pdu"
-  description: "PFS ICS PDU at CB2F"
+    name: "pdu1-infra"
+    place: "CB2F"
+    units: 20
+    class: "pdu"
+    description: "PFS ICS PDU at CB2F"
 - assign:
   - id: 1
     name: "swc1-infra"
