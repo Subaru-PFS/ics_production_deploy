@@ -1,0 +1,45 @@
+- device:
+    name: "swc1-infra"
+    place: "CB2F"
+    units: 28
+    class: "switch"
+    description: "Network switch 1 at CB2F, FlexStack master"
+- assign:
+  - id: 1
+    name: "issd3-infra"
+    hostname: "iss-infra"
+    port: "d3"
+    description: "Port A3 of storage"
+  - id: 2
+    name: "issd4-infra"
+    hostname: "iss-infra"
+    port: "d4"
+    description: "Data network port A4 of storage"
+  - id: 3
+    name: "issd7-infra"
+    hostname: "iss-infra"
+    port: "d7"
+    description: "Data network port A7 of storage"
+  - id: 4
+    name: "issd8-infra"
+    hostname: "iss-infra"
+    port: "d8"
+    description: "Data network port A8 of storage"
+  - id: 5
+    name: "rca1a-infra"
+    hostname: "rca1-infra"
+    port: "a"
+  - id: 6
+    name: "rfa1a-vm"
+    hostname: "rfa1-vm"
+    port: "a"
+  - id: 7
+    name: "rga1a-vm"
+    hostname: "rga1-vm"
+    port: "a"
+  - id: 20
+    name: "uplink"
+    hostname: "uplink"
+    port: "a"
+    description: "To be updated, no hostname assigned to uplink yet"
+
