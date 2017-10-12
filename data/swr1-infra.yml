@@ -1,9 +1,9 @@
 - device:
-  name: "swr1-infra"
-  place: "SCR"
-  units: 28
-  class: "switch"
-  description: "Network switch at SCR 5th rack"
+    name: "swr1-infra"
+    place: "SCR"
+    units: 28
+    class: "switch"
+    description: "Network switch at SCR 5th rack"
 - assign:
   - id: 1
     name: "raa1a-vm"

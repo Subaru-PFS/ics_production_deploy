@@ -1,9 +1,9 @@
 - device:
-  name: "swc2-infra"
-  place: "CB2F"
-  units: 28
-  class: "switch"
-  description: "Network switch 2 at CB2F, FlexStack slave"
+    name: "swc2-infra"
+    place: "CB2F"
+    units: 28
+    class: "switch"
+    description: "Network switch 2 at CB2F, FlexStack slave"
 - assign:
   - id: 1
     name: "pdu1-infra"
